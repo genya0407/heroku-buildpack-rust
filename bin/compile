@@ -53,7 +53,7 @@ if [ -d reing_text2image ]; then
     cd reing_text2image
     git pull
 else
-    git clone https://github.com/genya0407/heroku-buildpack-text2image.git
+    git clone https://github.com/genya0407/reing_text2image.git
     cd reing_text2image
 fi
 cargo build --release
