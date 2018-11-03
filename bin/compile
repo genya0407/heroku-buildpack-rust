@@ -57,4 +57,5 @@ else
     cd reing_text2image
 fi
 cargo build --release
+find ..
 cp target/release/image2text $BUILD_DIR/bin
